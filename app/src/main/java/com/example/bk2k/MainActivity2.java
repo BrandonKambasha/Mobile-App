@@ -61,5 +61,21 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        quizes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this,quiz.class);
+                startActivity(i);
+            }
+        });
+
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity2.this,quiz.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BK2K">
         <activity
+            android:name=".quiz"
+            android:exported="false" />
+        <activity
             android:name=".calculator"
             android:exported="false" />
         <activity
